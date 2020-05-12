@@ -3,17 +3,22 @@ import ReactDOM from 'react-dom';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from 'react-router-dom'
 
 import Main from './Pages/Main.js'
+import Project from './Pages/Project.js'
 
-import './index.css';
+import './CSS/index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Main/>
+    <Router>
+      <Switch>
+        <Route exact path='/' component={Main}/>
+        <Route path='/project/:name' component={Project}/>
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

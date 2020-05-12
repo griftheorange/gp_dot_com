@@ -1,10 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 function Main(props) {
     return (
-        <div>
-            Test
-        </div>
+        <Link to='/project/yeet'>Test Project: Yeet</Link>
     );
 }
 
