@@ -5,6 +5,7 @@ import {
   Switch,
   Route
 } from 'react-router-dom'
+import { Header } from 'semantic-ui-react'
 
 import Main from './Pages/Main.js'
 import Project from './Pages/Project.js'
@@ -14,16 +15,16 @@ import './CSS/index.css';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <div style={{height:'200vh', width:'100%', display: 'flex', flexDirection:'column'}}>
-          <div className='background' style={{zIndex:'-2', width:'100%', backgroundColor:'#d69412e8'}}>
-            <img src='isaac-smith-6EnTPvPPL6I-unsplash.jpg' style={{width:'100%'}}></img>
+      <div className={'full-window'}>
+          <div className={'image-header'}>
+            <img src='isaac-smith-6EnTPvPPL6I-unsplash.jpg'></img>
+            <div className={'header-box'}>
+              <Header className={'main-header'} as='h1'>Griffin Poole</Header>
+              <Header.Subheader className={'main-subheader'} as='h3'>Full Stack Web Developer, Neuroscience BA</Header.Subheader>
+            </div>
           </div>
-          <div style={{zIndex:'-1', flexGrow:'1', width:'100%', backgroundColor:'#d69412e8', position:'relative'}}>
-            <div className='content' style={{width:'85%',
-                                             position:'relative',
-                                             bottom:'5em',
-                                             height:'100%',
-                                             left:'7.5%'}}>
+          <div className={'content-wrapper'}>
+            <div className={'content'}>
               <Switch>
                 <Route exact path='/' component={Main}/>
                 <Route path='/project/:name' component={Project}/>
