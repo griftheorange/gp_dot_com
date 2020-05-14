@@ -4,8 +4,10 @@ function Project(props) {
 
     console.log(props)
     return (
-        <div>
-            Project {props.match.params.name}
+        <div className={'card-container'} style={{height:'100%'}}>
+            <div className={'card'}>
+                Project {props.match.params.name}
+            </div>
         </div>
     );
 }
