@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 import { Header, Divider, List, Button, Icon, Grid, Image } from 'semantic-ui-react'
 import profile from '../../Resources/profile_temp.jpg'
@@ -155,30 +155,30 @@ function Main(props) {
                 <Grid style={{height:'100%', width:'100%', paddingTop:'1em', paddingLeft:'2em'}} columns={4} divided>
                     <Grid.Row style={{height:'50%', width:'100%'}}>
                         <Grid.Column style={{height:'100%', width:'25%'}}>
-                            <ProjectCard history={props.history} details={'A React/Rails App for Visualizing USGS Seismic Event Data'} title={'SeisMix'} icon={profile}/>
+                            <ProjectCard icon={'line graph'} history={props.history} details={'A React/Rails App for Visualizing USGS Seismic Event Data'} title={'SeisMix'}/>
                         </Grid.Column>
                         <Grid.Column style={{height:'100%', width:'25%'}}>
-                            <ProjectCard history={props.history} details={'A React/Flask App for Personal Finance Tracking'} title={'Budget.web'} icon={profile}/>
+                            <ProjectCard icon={'area graph'} history={props.history} details={'A React/Flask App for Personal Finance Tracking'} title={'Budget.web'}/>
                         </Grid.Column>
                         <Grid.Column style={{height:'100%', width:'25%'}}>
-                            <ProjectCard history={props.history} details={'A D3.js/React App for rendering Geographic Data in a React Setting'} title={'TopoGlobe'} icon={profile}/>
+                            <ProjectCard icon={'globe'} history={props.history} details={'A D3.js/React App for rendering Geographic Data in a React Setting'} title={'TopoGlobe'}/>
                         </Grid.Column>
                         <Grid.Column style={{height:'100%', width:'25%'}}>
-                            <ProjectCard history={props.history} details={'A Javascript webpage for custom plotting CSV Data'} title={'Graph.js'} icon={profile}/>
+                            <ProjectCard icon={'chart bar'} history={props.history} details={'A Javascript webpage for custom plotting CSV Data'} title={'Graph.js'}/>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row style={{height:'50%', width:'100%'}}>
                         <Grid.Column style={{height:'100%', width:'25%'}}>
-                            <ProjectCard history={props.history} details={'A React App and my Personal Webpage, Click for making of details'} title={'GP.com'} icon={profile}/>
+                            <ProjectCard icon={'tag'} history={props.history} details={'A React App and my Personal Webpage, Click for making of details'} title={'GP.com'}/>
                         </Grid.Column>
                         <Grid.Column style={{height:'100%', width:'25%'}}>
-                            <ProjectCard history={props.history} details={'A JavaFX GUI TodoList App'} title={'JavaTodo'} icon={profile}/>
+                            <ProjectCard icon={'calendar check outline'} history={props.history} details={'A JavaFX GUI TodoList App'} title={'JavaTodo'}/>
                         </Grid.Column>
                         <Grid.Column style={{height:'100%', width:'25%'}}>
-                            <ProjectCard history={props.history} details={'A Procedurally Generated RogueLike game written in Python'} title={'Python Roguelike'} icon={profile}/>
+                            <ProjectCard icon={'game'} history={props.history} details={'A Procedurally Generated RogueLike game written in Python'} title={'Python Roguelike'}/>
                         </Grid.Column>
                         <Grid.Column style={{height:'100%', width:'25%'}}>
-                            <ProjectCard history={props.history} details={'A Command Line Interface for DnD API navigation'} title={'CLI DnD'} icon={profile}/>
+                            <ProjectCard icon={'book'} history={props.history} details={'A Command Line Interface for DnD API navigation'} title={'CLI DnD'}/>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

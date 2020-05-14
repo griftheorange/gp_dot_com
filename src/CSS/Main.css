@@ -149,14 +149,14 @@ img.profile-img {
 div.project-card {
     height: 100%;
     width: 100%;
+    padding:0.5em;
     display:flex;
 }
 
-
-div.project-card img {
-    height:95%;
-    padding:2.5%;
+div.project-card i {
+    padding-top:0.34em;
     border-radius:50%;
+    color:#66666f
 }
 
 div.project-card div.project-details {
