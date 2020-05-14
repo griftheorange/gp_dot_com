@@ -96,21 +96,21 @@ div.content {
   flex-flow: column; 
   height:calc(100% + 7em );
   transition: bottom 1s;
-  animation: fadeInContent ease 4s, slideInContent ease 4s;
+  animation: fadeInContent ease 3s, slideInContent ease 3s;
   bottom:10em;
   left:2.5%;
 }
 
 @keyframes fadeInContent {
   0% {opacity:0}
-  45% {opacity:0;}
+  25% {opacity:0;}
   66% {opacity:1;}
   100% {opacity:1;}
 }
 
 @keyframes slideInContent {
   0% {bottom:20em}
-  45% {bottom:20em}
+  25% {bottom:20em}
   100% {bottom:10em;}
 }
 

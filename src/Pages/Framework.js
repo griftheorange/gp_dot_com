@@ -7,9 +7,8 @@ import {
 import { Header, Image } from 'semantic-ui-react'
 
 import Main from './MainComps/Main.js'
-import Project from './Project.js'
+import ProjectRouter from './ProjectRouter.js'
 import background from '../Resources/lukas-blazek-mcSDtbWXUZU-unsplash.jpg'
-import profile from '../Resources/profile.jpg'
 
 import '../CSS/Framework.css';
 
@@ -31,7 +30,7 @@ function Framework(props) {
                     <div className={'content'}>
                     <Switch>
                         <Route exact path='/' component={Main}/>
-                        <Route path='/project_overview/:name' component={Project}/>
+                        <Route path='/project_overview/:name' component={ProjectRouter}/>
                     </Switch>
                     </div>
                     <div className={'copyright'}><span>Copyright &copy;{(new Date(Date.now())).getFullYear()} Griffin A. Poole. All rights reserved.</span></div>

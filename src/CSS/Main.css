@@ -4,7 +4,6 @@ div.card-container {
     overflow-x: auto;
     overflow-y: visible;
     border-left: 7px solid #71737d;
-    margin-top:0.5em;
     width:100%;
 }
 
@@ -179,4 +178,15 @@ div.project-card div.project-details .subdetails {
     padding-right:0.5em;
     margin-top:0;
     text-align: left;
+}
+
+h3.card-tag {
+    margin-bottom:0;
+    margin-top:0.5em;
+    background-color: #303556;
+    color: white;
+    text-shadow: 0.5px 0.5px #697284;
+    text-align: center;
+    padding: 0.3em;
+    width:7em
 }
