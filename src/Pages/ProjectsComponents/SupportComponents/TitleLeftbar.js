@@ -32,11 +32,34 @@ function TitleLeftbar(props) {
         )
     }
 
+    function genGithubRepos(){
+        let headerFives = []
+        if(props.github){
+            let keys = Object.keys(props.github)
+            for(let keyindex in keys){
+                headerFives.push(
+                    <h5>{keys[keyindex].slice(0,1).toUpperCase()+keys[keyindex].slice(1)} - <a target='_blank' href={props.github[keys[keyindex]]}>Github</a></h5>
+                )
+            }
+        }
+        return headerFives
+    }
+
+    function genDemoVideo(){
+        if(props.demo){
+            return (
+                <h5><a target='_blank' href={props.demo}>Demo Video</a></h5>
+            )
+        }
+    }
+
     return (
         <div className={'titlecard-text'}>
             <div className={'text-title'}>
                 <h2>{props.title}</h2>
                 <h4>{props.subtitle}</h4>
+                {genGithubRepos()}
+                {genDemoVideo()}
             </div>
             <Divider style={{borderTopWidth:'3px'}}/>
             <div className={'text-tools'}>

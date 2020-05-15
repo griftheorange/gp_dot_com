@@ -28,7 +28,12 @@ function SeisMixPage(props) {
                                       'Cloudinary',
                                       'Active Model'
                                   ]
-                              }}/>
+                              }}
+                              github={{
+                                  'frontend':'https://github.com/griftheorange/sm-frontend',
+                                  'backend':'https://github.com/griftheorange/sm-backend'
+                              }}
+                              demo={'https://www.youtube.com/watch?v=fy93QL0LiVM&feature=youtu.be'}/>
                 <TitleRightbar gif={smAnimation1}/>
             </TitleCard>
         </div>
