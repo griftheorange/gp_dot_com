@@ -1,4 +1,5 @@
 import React from 'react';
+import { Icon } from 'semantic-ui-react'
 
 import SeisMixPage from './ProjectsComponents/SeisMixPage'
 import BudgetWebPage from './ProjectsComponents/BudgetWebPage'
@@ -39,11 +40,16 @@ function ProjectRouter(props) {
     }
 
     return (
+        <>
+        <div onClick={()=>{props.history.push('/')}} className={'home-button'}>
+            <Icon name='home' size='big'/>
+        </div>
         <div className={'card-container'} style={{height:'1470em'}}>
             <div className={'card'}>
                 {getProjectContent()}
             </div>
         </div>
+        </>
     );
 }
 

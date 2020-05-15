@@ -1,3 +1,10 @@
+div.home-button {
+    padding:0.5em;
+    background-color: #303556;
+    color: white;
+    width:3.5em;
+}
+
 div.project-desc-wrapper {
     padding:1em;
     display:flex;
