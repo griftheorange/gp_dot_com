@@ -2,7 +2,7 @@ import React from 'react';
 
 function BudgetWebPage(props) {
     return (
-        <div>
+        <div className={'project-desc-wrapper'}>
             Budget
         </div>
     );

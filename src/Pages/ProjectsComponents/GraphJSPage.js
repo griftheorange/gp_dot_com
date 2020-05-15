@@ -2,7 +2,7 @@ import React from 'react';
 
 function GraphJSPage(props) {
     return (
-        <div>
+        <div className={'project-desc-wrapper'}>
             GraphJS
         </div>
     );

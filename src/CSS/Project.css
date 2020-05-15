@@ -1,0 +1,119 @@
+div.project-desc-wrapper {
+    padding:1em;
+    display:flex;
+    width:100%;
+    height:100%;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+div.project-titlecard {
+    height: 70%;
+    width:100%;
+    display:flex;
+}
+
+div.titlecard-text {
+    padding-right:1em;
+    min-width:30%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.text-title {
+    width:100%;
+}
+
+div.text-title h2 {
+    font-size: 3em;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #3a3a56;
+    margin-bottom:0;
+    text-shadow: 2px 2px #b1b1b1;
+    animation: fadeInTitle ease 1.25s
+}
+
+@keyframes fadeInTitle {
+    0% {opacity:0}
+    100% {opacity:1}
+}
+
+div.text-title h4 {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #b1b1b1;
+    margin-top:0;
+    text-shadow: 0.5px 0.5px #3a3a56;
+    animation: fadeInSubtitle ease 2s;
+}
+
+@keyframes fadeInSubtitle {
+    0% {opacity:0}
+    33% {opacity:0}
+    100% {opacity:1}
+}
+
+div.text-tools {
+    flex-grow:1;
+    width:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    animation: fadeInTools ease 2.5s
+}
+
+@keyframes fadeInTools {
+    0% {opacity:0}
+    50% {opacity:0}
+    100% {opacity:1}
+}
+
+div.titlecard-animation {
+    height:100%;
+    max-width:70%;
+    border-left:4px solid #8496b1;
+    border-right:4px solid #8496b1;
+}
+
+div.titlecard-animation img {
+    height:100%;
+    width:100%;
+    animation: fadeInAnimation ease 2.5s
+}
+
+@keyframes fadeInAnimation {
+    0% {opacity:0}
+    50% {opacity:0}
+    100% {opacity:1}
+}
+
+div.text-tools h2 {
+    font-size: 1.5em;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #3a3a55;
+    margin-top:1em;
+    margin-bottom:0;
+    text-shadow: 1.5px 1.5px #c1bfbf;
+    animation: fadeInSubtitle ease 2s;
+}
+
+div.text-tools div.ui.list {
+    margin-top: 0.5em;
+}
+
+div.text-tools div.ui.list div.item h4 {
+    margin-bottom:0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 1.3em;
+    color: #b1b1b1;
+    text-shadow: 0.5px 0.5px #3a3a56;
+}
+
+div.text-tools div.ui.list div.item div.list div.item span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a59696;
+    text-shadow: 0.5px 0.5px #3a3a56;
+}

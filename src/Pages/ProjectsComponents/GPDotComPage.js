@@ -2,7 +2,7 @@ import React from 'react';
 
 function GPDotComPage(props) {
     return (
-        <div>
+        <div className={'project-desc-wrapper'}>
             Website
         </div>
     );

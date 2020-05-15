@@ -2,7 +2,7 @@ import React from 'react';
 
 function JavaTodoPage(props) {
     return (
-        <div>
+        <div className={'project-desc-wrapper'}>
             TodoList
         </div>
     );

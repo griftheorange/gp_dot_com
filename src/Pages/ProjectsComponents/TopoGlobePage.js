@@ -2,7 +2,7 @@ import React from 'react';
 
 function TopoGlobePage(props) {
     return (
-        <div>
+        <div className={'project-desc-wrapper'}>
             TopoGlobe
         </div>
     );

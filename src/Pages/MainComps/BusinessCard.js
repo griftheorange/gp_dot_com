@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header, Divider, List, Button, Icon } from 'semantic-ui-react'
-import profile from '../../Resources/profile_temp.jpg'
+import profile from '../../Resources/DSC_1989.JPG'
 
 function BusinessCard(props) {
     return (
@@ -80,22 +80,22 @@ function BusinessCard(props) {
                                 <Divider style={{width:'19.5em', marginBottom:0}}/>
                                 <List.List>
                                     <List.Item>
-                                        <span>-<span style={{fontWeight:'bold'}}>Javascript</span>: React</span>
+                                        <span>&bull; <span style={{fontWeight:'bold'}}>Javascript</span>: React</span>
                                     </List.Item>
                                     <List.Item>
-                                        <span>-<span style={{fontWeight:'bold'}}>Ruby</span>: Rails</span>
+                                        <span>&bull; <span style={{fontWeight:'bold'}}>Ruby</span>: Rails</span>
                                     </List.Item>
                                     <List.Item>
-                                        <span>-<span style={{fontWeight:'bold'}}>Python</span>: Flask</span>
+                                        <span>&bull; <span style={{fontWeight:'bold'}}>Python</span>: Flask</span>
                                     </List.Item>
                                     <List.Item>
-                                        <span>-<span style={{fontWeight:'bold'}}>SQL</span>: MySQL, SQLite</span>
+                                        <span>&bull; <span style={{fontWeight:'bold'}}>SQL</span>: MySQL, SQLite</span>
                                     </List.Item>
                                     <List.Item>
-                                        <span>-<span style={{fontWeight:'bold'}}>HTML</span></span>
+                                        <span>&bull; <span style={{fontWeight:'bold'}}>HTML</span></span>
                                     </List.Item>
                                     <List.Item>
-                                        <span>-<span style={{fontWeight:'bold'}}>Java</span></span>
+                                        <span>&bull; <span style={{fontWeight:'bold'}}>Java</span></span>
                                     </List.Item>
                                 </List.List>
                             </List.Item>
@@ -104,13 +104,13 @@ function BusinessCard(props) {
                                 <Divider style={{width:'18.5em', marginBottom:0}}/>
                                 <List.List>
                                     <List.Item>
-                                        <span>-<span style={{fontWeight:'bold'}}>Python</span>: Pandas, Numpy</span>
+                                        <span>&bull; <span style={{fontWeight:'bold'}}>Python</span>: Pandas, Numpy</span>
                                     </List.Item>
                                     <List.Item>
-                                        <span>-<span style={{fontWeight:'bold'}}>Javascript</span>: D3.js, Chart.js</span>
+                                        <span>&bull; <span style={{fontWeight:'bold'}}>Javascript</span>: D3.js, Chart.js</span>
                                     </List.Item>
                                     <List.Item>
-                                        <span>-<span style={{fontWeight:'bold'}}>Ruby</span>: Active Record</span>
+                                        <span>&bull; <span style={{fontWeight:'bold'}}>Ruby</span>: Active Record</span>
                                     </List.Item>
                                 </List.List>
                             </List.Item>
@@ -119,12 +119,12 @@ function BusinessCard(props) {
                                 <Divider style={{width:'7em', marginBottom:0}}/>
                                 <List.List>
                                     <List.Item>
-                                        <span>-Strong Passion for Data Visualization</span>
-                                        <span>-Flatiron School Graduate of Software Engineering</span>
-                                        <span>-Rutgers BA in Cell Biology and Neuroscience</span>
-                                        <span>-Excellent Communication Skills</span>
-                                        <span>-Very Strong Organization Skills</span>
-                                        <span>-Highly Personable</span>
+                                        <span>&bull; Strong Passion for Data Visualization</span>
+                                        <span>&bull; Flatiron School Graduate of Software Engineering</span>
+                                        <span>&bull; Rutgers BA in Cell Biology and Neuroscience</span>
+                                        <span>&bull; Excellent Communication Skills</span>
+                                        <span>&bull; Very Strong Organization Skills</span>
+                                        <span>&bull; Highly Personable</span>
                                     </List.Item>
                                 </List.List>
                             </List.Item>

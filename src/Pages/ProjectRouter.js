@@ -9,6 +9,8 @@ import JavaTodoPage from './ProjectsComponents/JavaTodoPage'
 import PythonRoguelikePage from './ProjectsComponents/PythonRoguelikePage'
 import CLIDnDPage from './ProjectsComponents/CLIDnDPage'
 
+import '../CSS/Project.css'
+
 function ProjectRouter(props) {
 
     console.log(props)
@@ -37,7 +39,7 @@ function ProjectRouter(props) {
     }
 
     return (
-        <div className={'card-container'} style={{height:'100%'}}>
+        <div className={'card-container'} style={{height:'1470em'}}>
             <div className={'card'}>
                 {getProjectContent()}
             </div>

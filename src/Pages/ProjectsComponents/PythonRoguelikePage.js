@@ -2,7 +2,7 @@ import React from 'react';
 
 function PythonRoguelikePage(props) {
     return (
-        <div>
+        <div className={'project-desc-wrapper'}>
             Roguelike
         </div>
     );
