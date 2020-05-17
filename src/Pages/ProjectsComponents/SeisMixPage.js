@@ -43,7 +43,36 @@ function SeisMixPage(props) {
                               demo={'https://www.youtube.com/watch?v=fy93QL0LiVM&feature=youtu.be'}/>
                 <TitleRightbar gif={smAnimation1}/>
             </TitleCard>
-            <SummaryBlock summary={TextBlocks.seisMix}/>
+            <SummaryBlock summary={TextBlocks.seisMix}
+                          setup={{
+                              'frontend':{
+                                  'steps':[
+                                      'Uses Node Package Manager',
+                                      'Pull the github repo to a local directory',
+                                      'Open terminal and cd into the directory',
+                                      'Run "npm install" to install dependencies',
+                                      'Run npm start to boot app on localhost',
+                                      'Optionally, run "npm build" for minified build files, then run serve -s build to boot up'
+                                  ]
+                              },
+                              'backend':{
+                                  'steps':[
+                                      'Uses Ruby Bundler',
+                                      'Pull the github repo to a local directory',
+                                      'Open terminal and cd into the directory',
+                                      'Run "bundle install"',
+                                      'Run "rails db:create"',
+                                      'Run "rails db:create"',
+                                      'Run "rails db:migrate"',
+                                      'Run "rails db:seed"',
+                                      `Run "${"<EDITOR>='code --wait' rails credentials:edit"}", replace <EDITOR> with your code editor of choice (i.e. VSC)`,
+                                      `This opens up a credentials.yml file, in this file type "${"hmac: secret_key: 'my_secret_key'"}"`,
+                                      'Run "rails s"'
+
+
+                                  ]
+                              }
+                          }}/>
             <FeatureBlock features={{
                               'USGS API Queries': {
                                 'details':[
