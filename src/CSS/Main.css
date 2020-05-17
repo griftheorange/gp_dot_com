@@ -19,6 +19,7 @@ div.card {
 
 div.project-card-container {
     border-left: 7px solid #71737d;
+    overflow-x: auto;
 }
 
 div.project-card-bckgnd {

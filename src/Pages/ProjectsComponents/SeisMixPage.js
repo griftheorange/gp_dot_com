@@ -106,9 +106,9 @@ function SeisMixPage(props) {
                                 'Bookmarking and Commenting':{
                                     'details':[
                                         'Return Users can bookmark interesting events',
-                                        'Bookmarks are organized on a Profile page map and display information',
+                                        'Bookmarks are organized on a Profile page map and hovering displays information',
                                         'Users can also provide "insights" on events that they visit',
-                                        'A users insights are also tracked on their profile page'
+                                        "A user's insights are also tracked on their profile page"
                                     ],
                                     'animation':smAnimation5
                                 }
