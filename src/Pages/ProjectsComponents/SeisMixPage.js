@@ -10,6 +10,7 @@ import smAnimation1 from '../../Resources/ProjectAnimations/smAnimation1.gif'
 import smAnimation2 from '../../Resources/ProjectAnimations/smAnimation2.gif'
 import smAnimation3 from '../../Resources/ProjectAnimations/smAnimation3.gif'
 import smAnimation4 from '../../Resources/ProjectAnimations/smAnimation4.gif'
+import smAnimation5 from '../../Resources/ProjectAnimations/smAnimation5.gif'
  
 function SeisMixPage(props) {
     return (
@@ -70,6 +71,15 @@ function SeisMixPage(props) {
                                         'User page provides an interface for a users webpage activity'
                                     ],
                                     'animation':smAnimation4
+                                },
+                                'Bookmarking and Commenting':{
+                                    'details':[
+                                        'Return Users can bookmark interesting events',
+                                        'Bookmarks are organized on a Profile page map and display information',
+                                        'Users can also provide "insights" on events that they visit',
+                                        'A users insights are also tracked on their profile page'
+                                    ],
+                                    'animation':smAnimation5
                                 }
                           }}/>
         </div>
