@@ -66,7 +66,7 @@ function SummaryBlock(props) {
                 {genSetupSteps()}
             </div>
         </div>
-        <Divider style={{borderTopWidth:'2px'}}/>
+        <Divider style={{borderTopWidth:'3px'}}/>
         </>
     );
 }

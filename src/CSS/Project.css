@@ -138,3 +138,21 @@ div.text-tools div.ui.list div.item div.list div.item span {
     color: #a59696;
     text-shadow: 0.5px 0.5px #3a3a56;
 }
+
+div.component-tree {
+    width:100%;
+}
+
+div.component-tree h3 {
+    font-size: 2.5em;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #3a3a56;
+    margin-bottom:0;
+    text-shadow: 2px 2px #b1b1b1;
+}
+
+div.component-tree img {
+    width:50%;
+    height:auto
+}

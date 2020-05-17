@@ -23,11 +23,14 @@ function FeatureBlock(props) {
     }
 
     return (
+        <>
         <div className={'feature-block'}>
             <h3 className={'feature-title'}>Features</h3>
             <Divider style={{width:'100%'}}/>
             {genFeatures()}
         </div>
+        <Divider style={{borderTopWidth:'3px'}}/>
+        </>
     );
 }
 
