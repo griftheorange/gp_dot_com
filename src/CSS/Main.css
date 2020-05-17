@@ -23,6 +23,7 @@ div.project-card-container {
 
 div.project-card-bckgnd {
     background-color:#f2f2f5;
+    min-width:95em;
 }
 
 div.business-card-container {
