@@ -95,7 +95,7 @@ div.main-content {
   flex-flow: column; 
   height:730px;
   transition: bottom 1s;
-  animation: fadeInContent ease 3s, slideInContent ease 3s;
+  animation: fadeInContent ease 2.5s, slideInContent ease 2.5s;
   bottom:5em;
   left:2.5%;
 }

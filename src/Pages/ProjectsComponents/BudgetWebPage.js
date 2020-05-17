@@ -1,8 +1,13 @@
 import React from 'react';
 
+import TextBlocks from './SupportComponents/TextBlocks.js'
 import TitleCard from './SupportComponents/TitleCard.js'
 import TitleLeftbar from './SupportComponents/TitleLeftbar.js'
 import TitleRightbar from './SupportComponents/TitleRightbar.js'
+import SummaryBlock from './SupportComponents/SummaryBlock.js'
+import FeatureBlock from './SupportComponents/FeatureBlock.js'
+import ComponentTree from './SupportComponents/ComponentTree.js'
+
 import budgetPyAnimation1 from '../../Resources/ProjectAnimations/budgetPyAnimation1.gif'
 
 function BudgetWebPage(props) {
@@ -33,6 +38,7 @@ function BudgetWebPage(props) {
                               }}/>
                 <TitleRightbar gif={budgetPyAnimation1}/>
             </TitleCard>
+            <SummaryBlock/>
         </div>
     );
 }

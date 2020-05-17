@@ -152,6 +152,7 @@ div.component-tree h3 {
 }
 
 div.component-tree img {
-    width:50%;
-    height:auto
+    width:60%;
+    height:auto;
+    margin-left: 20%;
 }

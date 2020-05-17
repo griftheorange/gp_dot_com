@@ -1,5 +1,4 @@
 import React from 'react';
-import { Divider } from 'semantic-ui-react'
  
 import TextBlocks from './SupportComponents/TextBlocks.js'
 import TitleCard from './SupportComponents/TitleCard.js'
@@ -7,7 +6,8 @@ import TitleLeftbar from './SupportComponents/TitleLeftbar.js'
 import TitleRightbar from './SupportComponents/TitleRightbar.js'
 import SummaryBlock from './SupportComponents/SummaryBlock.js'
 import FeatureBlock from './SupportComponents/FeatureBlock.js'
-import componentTree from '../../Resources/ProjectImages/smComponentTree.png'
+import ComponentTree from './SupportComponents/ComponentTree.js'
+import componentTreeImg from '../../Resources/ProjectImages/smComponentTree.png'
 import smAnimation1 from '../../Resources/ProjectAnimations/smAnimation1.gif'
 import smAnimation2 from '../../Resources/ProjectAnimations/smAnimation2.gif'
 import smAnimation3 from '../../Resources/ProjectAnimations/smAnimation3.gif'
@@ -113,11 +113,7 @@ function SeisMixPage(props) {
                                     'animation':smAnimation5
                                 }
                           }}/>
-            <div className={'component-tree'}>
-                <h3>Component Tree</h3>
-                <Divider/>
-                <img src={componentTree}/>
-            </div>
+            <ComponentTree image={componentTreeImg}/>
         </div>
     );
 }
