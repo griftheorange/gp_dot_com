@@ -7,7 +7,7 @@ function TitleCard(props) {
             <div className={'project-titlecard'}>
                 {props.children}
             </div>
-            <Divider/>
+            <Divider style={{borderTopWidth:'2px'}}/>
         </>
     );
 }

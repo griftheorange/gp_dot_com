@@ -1,5 +1,10 @@
 import React from 'react';
 
+import TitleCard from './SupportComponents/TitleCard.js'
+import TitleLeftbar from './SupportComponents/TitleLeftbar.js'
+import TitleRightbar from './SupportComponents/TitleRightbar.js'
+import budgetPyAnimation1 from '../../Resources/ProjectAnimations/budgetPyAnimation1.gif'
+
 function GraphJSPage(props) {
     return (
         <div className={'project-desc-wrapper'}>

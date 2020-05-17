@@ -44,7 +44,7 @@ function ProjectRouter(props) {
         <div onClick={()=>{props.history.push('/')}} className={'home-button'}>
             <Icon name='home' size='big'/>
         </div>
-        <div className={'card-container'} style={{height:'1470em'}}>
+        <div className={'card-container'} style={{height:'1870em'}}>
             <div className={'card'}>
                 {getProjectContent()}
             </div>
