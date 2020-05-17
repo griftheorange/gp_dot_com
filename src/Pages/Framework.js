@@ -27,12 +27,10 @@ function Framework(props) {
                     </div>
                 </div>
                 <div className={'content-wrapper'}>
-                    <div className={'content'}>
                     <Switch>
                         <Route exact path='/' component={Main}/>
                         <Route path='/project_overview/:name' component={ProjectRouter}/>
                     </Switch>
-                    </div>
                     <div className={'copyright'}><span>Copyright &copy;{(new Date(Date.now())).getFullYear()} Griffin A. Poole. All rights reserved.</span></div>
                 </div>
             </div>

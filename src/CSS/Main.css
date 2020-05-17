@@ -17,6 +17,14 @@ div.card {
     background-color:#f2f2f5;
 }
 
+div.project-card-container {
+    border-left: 7px solid #71737d;
+}
+
+div.project-card-bckgnd {
+    background-color:#f2f2f5;
+}
+
 div.business-card-container {
     height: 100%;
     display:flex;

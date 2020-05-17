@@ -40,16 +40,16 @@ function ProjectRouter(props) {
     }
 
     return (
-        <>
-        <div onClick={()=>{props.history.push('/')}} className={'home-button'}>
-            <Icon name='home' size='big'/>
-        </div>
-        <div className={'card-container'} style={{height:'1870em'}}>
-            <div className={'card'}>
-                {getProjectContent()}
+        <div className={'project-content'}>
+            <div onClick={()=>{props.history.push('/')}} className={'home-button'}>
+                <Icon name='home' size='big'/>
+            </div>
+            <div className={'project-card-container'}>
+                <div className={'project-card-bckgnd'}>
+                    {getProjectContent()}
+                </div>
             </div>
         </div>
-        </>
     );
 }
 
