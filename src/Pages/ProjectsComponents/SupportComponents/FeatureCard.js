@@ -15,8 +15,6 @@ function FeatureCard(props) {
         return details
     }
 
-    console.log(props.animation)
-
     return (
         <div className={'feature-card'}>
             <div className={'feature-text'}>

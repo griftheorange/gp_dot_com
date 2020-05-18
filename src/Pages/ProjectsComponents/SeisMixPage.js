@@ -8,6 +8,7 @@ import SummaryBlock from './SupportComponents/SummaryBlock.js'
 import FeatureBlock from './SupportComponents/FeatureBlock.js'
 import ComponentTree from './SupportComponents/ComponentTree.js'
 import componentTreeImg from '../../Resources/ProjectImages/smComponentTree.png'
+import routeTreeImg from '../../Resources/ProjectImages/smRouteTree.png'
 import smAnimation1 from '../../Resources/ProjectAnimations/smAnimation1.gif'
 import smAnimation2 from '../../Resources/ProjectAnimations/smAnimation2.gif'
 import smAnimation3 from '../../Resources/ProjectAnimations/smAnimation3.gif'
@@ -113,7 +114,10 @@ function SeisMixPage(props) {
                                     'animation':smAnimation5
                                 }
                           }}/>
-            <ComponentTree image={componentTreeImg}/>
+            <ComponentTree images={{
+                'frontend - React Components':componentTreeImg,
+                'backend - Rails Restful Routes':routeTreeImg
+            }}/>
         </div>
     );
 }

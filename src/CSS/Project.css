@@ -151,8 +151,34 @@ div.component-tree h3 {
     text-shadow: 2px 2px #b1b1b1;
 }
 
-div.component-tree img {
-    width:60%;
+div.tree-container {
+    width:95%;
+    margin:auto;
+}
+
+div.tree-container div.tree-img-container {
+    width:65%;
+    display:flex;
+    padding-bottom: 2em;
+    margin-bottom:1em;
+    flex-direction:column;
     height:auto;
-    margin-left: 20%;
+    margin:auto;
+}
+
+div.tree-img-container h4 {
+    margin-bottom:0;
+    margin-top:0;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.4em;
+    color: #3a3a56;
+    text-shadow: 1px 1px #b1b1b1;
+}
+
+div.tree-img-container img {
+    width:100%;
+    height:auto;
+    border-right:3px solid #3939b9;
+    border-left:3px solid #3939b9;
 }
