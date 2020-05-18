@@ -54,9 +54,11 @@ function BudgetWebPage(props) {
                                     'Pull the github repo to a local directory',
                                     'Open terminal and cd into the directory',
                                     'Run "npm install" to install dependencies',
-                                    'Run npm start to boot app on localhost',
+                                    'Run "npm start" to boot app on localhost',
                                     'Optionally, run "npm build" for minified build files, then run serve -s build to boot up',
-                                    'With your opened app, the FIRST thing you need to do is "Initialize Table" with a file matching the required columns. You need at least one row of initial values. After that, you are set!'
+                                    'With your opened app, the FIRST thing you need to do is "Initialize Graph" with a file matching the required columns: Transaction History, Date, Type, Cost, Checking, Savings, Total, Total Income', 
+                                    'You need at least one row of initial values. "Total" is the sum of Checking and Savings, and "Total Income" can be set equal to "Total" to start',
+                                    'After initializing, you are set!'
                                 ]
                             },
                             'backend':{

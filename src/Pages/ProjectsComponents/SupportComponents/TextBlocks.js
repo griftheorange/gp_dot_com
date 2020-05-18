@@ -18,6 +18,14 @@ class TextBlocks {
     Data tables can be saved as backups and exported as Excel, CSV or pickle files for ease of transfer to other applications. Backup tables can be re-loaded in, or the data can be re-initialized with exported files if resets are necessary.
     For more details, check out the Features below, or the Demo Video linked above!
     `.trim()
+
+    static gpCom = `
+    GP.com: My personal landing page and resume site.
+    I built GP.com as a way to collect, organize and present my project work over the course of my development journey. It was built using the React.js framework, with the Semantic-UI library and custom CSS for styling.
+    GP.com provides users with a compact, aesthetic interface to view my project history, while also providing access to other sites and resources providing reference for me (e.g. Resume, Blogs, Social Media, Github).
+    The site was built with a very modular settup in mind, using the full potential of React Components to construct many unique pages from organized sub-components. Because of this, long-term maintinence of the site and updates with new project, pages, etc. should prove very simple.
+    As a result I hope to maintain this site as a constant, up-to-date reference of my work, and I hope you enjoy viewing it as much as I've enjoyed building it!
+    `.trim()
 }
 
 export default TextBlocks

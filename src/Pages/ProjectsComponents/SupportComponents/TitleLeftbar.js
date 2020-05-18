@@ -53,6 +53,14 @@ function TitleLeftbar(props) {
         }
     }
 
+    function genBlogLink(){
+        if(props.blog){
+            return (
+                <h5><a target='_blank' href={props.blog}>Blog Article</a></h5>
+            )
+        }
+    }
+
     return (
         <div className={'titlecard-text'}>
             <div className={'text-title'}>
@@ -60,6 +68,7 @@ function TitleLeftbar(props) {
                 <h4>{props.subtitle}</h4>
                 {genGithubRepos()}
                 {genDemoVideo()}
+                {genBlogLink()}
             </div>
             <Divider style={{borderTopWidth:'3px'}}/>
             <div className={'text-tools'}>
