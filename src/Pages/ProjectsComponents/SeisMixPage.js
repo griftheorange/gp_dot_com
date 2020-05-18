@@ -79,7 +79,7 @@ function SeisMixPage(props) {
             <FeatureBlock features={{
                               'USGS API Queries': {
                                 'details':[
-                                    'By default displays events from past week',
+                                    'By default, displays events from past week',
                                     'Date and Magnitude ranges can be changed',
                                     'Events are plotted on charts and globe automatically after refresh',
                                     'All events are clickable, bringing you to a details page'
@@ -88,11 +88,11 @@ function SeisMixPage(props) {
                               },
                               'GlobeView - Geographic Plot':{
                                 'details':[
-                                    'Plots seismic events Geographically',
+                                    'Plots seismic events geographically',
                                     'Events and globe are interactive',
-                                    'Clicking on Event brings up access to details',
-                                    'Globe Rotation can be Toggled and Customized',
-                                    'Changeable map type'
+                                    'Clicking on events brings up access to event details',
+                                    'Globe rotation can be toggled and customized',
+                                    'Changeable map projection'
                                   ],
                                   'animation':smAnimation3
                                 },
@@ -106,8 +106,8 @@ function SeisMixPage(props) {
                                 },
                                 'Bookmarking and Commenting':{
                                     'details':[
-                                        'Return Users can bookmark interesting events',
-                                        'Bookmarks are organized on a Profile page map and hovering displays information',
+                                        'Returning users can bookmark interesting events',
+                                        'Bookmarks are organized on a Profile-page map, and hovering displays information',
                                         'Users can also provide "insights" on events that they visit',
                                         "A user's insights are also tracked on their profile page"
                                     ],

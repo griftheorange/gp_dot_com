@@ -56,12 +56,12 @@ function BudgetWebPage(props) {
                                     'Run "npm install" to install dependencies',
                                     'Run npm start to boot app on localhost',
                                     'Optionally, run "npm build" for minified build files, then run serve -s build to boot up',
-                                    'With your opened app, the FIRST thing you need to do is "Initialize Table" with a file matching the required columns. You need at least one row of initial values. After that you are set!'
+                                    'With your opened app, the FIRST thing you need to do is "Initialize Table" with a file matching the required columns. You need at least one row of initial values. After that, you are set!'
                                 ]
                             },
                             'backend':{
                                 'steps':[
-                                    'Uses Python (Prefereably with Anaconda)',
+                                    'Uses Python (Preferably with Anaconda)',
                                     'Pull the github repo to a local directory',
                                     'Open terminal and cd into the directory',
                                     'If using Anaconda, run "conda env create -f environment.yml" to create a conda environment named "budget" by default',
@@ -107,17 +107,17 @@ function BudgetWebPage(props) {
                               },
                               'Save, Reload, Export':{
                                   'details':[
-                                      'Users can save datatable in backups and reload from the same',
-                                      'Files can be saved and loaded as .csv, .xlsx, or .csv',
-                                      'Files can also be exported for download as the same filetypes',
-                                      'Exported files can be used in other applicaitons!'
+                                      'Users can save data tables in backups and reload from the same files',
+                                      'Files can be saved and loaded as .csv, .xlsx, or .p',
+                                      'Files can also be exported for download as the same file-types above',
+                                      'Exported files can be used in other applications!'
                                   ],
                                   'animation':budgetPyAnimation6
                               }
                           }}/>
             <ComponentTree images={{
                     'frontend - React Components':budgetPyComponentTree,
-                    'backend - Rails Restful Routes':budgetPyRouteTree
+                    'backend - Flask Custom Routes':budgetPyRouteTree
             }}/>
         </div>
     );
