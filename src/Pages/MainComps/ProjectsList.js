@@ -14,15 +14,15 @@ function ProjectsList(props) {
                     <ProjectCard icon={'line graph'} history={props.history} details={'A React/Rails App for Visualizing USGS Seismic Event Data'} title={'SeisMix'} star={true}/>
                 </Grid.Column>
                 <Grid.Column style={{height:'100%', width:'25%'}}>
-                    <ProjectCard icon={'globe'} history={props.history} details={'A D3.js/React App for rendering Geographic Data in a React Setting'} title={'TopoGlobe'} star={true}/>
+                    <ProjectCard icon={'tag'} history={props.history} details={'A React App and my Personal Webpage. Click for details on the making of'} title={'GP.com'} star={true}/>
                 </Grid.Column>
                 <Grid.Column style={{height:'100%', width:'25%'}}>
-                    <ProjectCard icon={'chart bar'} history={props.history} details={'A Javascript webpage for custom plotting CSV Data'} title={'Graph.js'} star={false}/>
+                    <ProjectCard icon={'globe'} history={props.history} details={'A D3.js/React App for rendering Geographic Data in a React Setting'} title={'TopoGlobe'} star={false}/>
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row style={{height:'50%', width:'100%'}}>
                 <Grid.Column style={{height:'100%', width:'25%'}}>
-                    <ProjectCard icon={'tag'} history={props.history} details={'A React App and my Personal Webpage. Click for details on the making of'} title={'GP.com'} star={false}/>
+                    <ProjectCard icon={'chart bar'} history={props.history} details={'A Javascript webpage for custom plotting CSV Data'} title={'Graph.js'} star={false}/>
                 </Grid.Column>
                 <Grid.Column style={{height:'100%', width:'25%'}}>
                     <ProjectCard icon={'calendar check outline'} history={props.history} details={'A JavaFX GUI TodoList App'} title={'JavaTodo'} star={false}/>
