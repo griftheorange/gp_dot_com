@@ -26,6 +26,24 @@ class TextBlocks {
     The site was built with a very modular settup in mind, using the full potential of React Components to construct many unique pages from organized sub-components. Because of this, long-term maintinence of the site and updates with new project, pages, etc. should prove very simple.
     As a result I hope to maintain this site as a constant, up-to-date reference of my work, and I hope you enjoy viewing it as much as I've enjoyed building it!
     `.trim()
+
+    static topoGlobe = `
+    TopoGlobe: An app for plotting geographic events in a responsive, interactive React environment.
+    I originally put together TopoGlobe as a practice piece for rendering and animating geographic data in a React setting. By the end, it became a very useful proof-of concept project, and an implementaiton of it can be seen in my SeisMix Project.
+    The main goal of this project was to combine functionality of three separate JS libraries (topojson-client, D3.js, and React) into a clean, easy-to-replicate implementation. My target then was to render an animated, interactive globe with data features that contained all the power and responsiveness of React components, with the file handling and data manipulation being performed by the specialized D3 and topojson libraries.
+    Topojson files, a compact means of storing geogrpahic data, were converted to geojson features interpretable by the D3 library. The D3 library then was able to to manipulate and project the geojson  features to path data interpretable by path elements in React. Lastly, sets of React components were generated from individual map features, and provided with listeners for hover and click events.
+    Lastly, by setting the D3 projections 'rotation' setting dependant on React state, animation for the globe was made easily interfaceable with React's toolkit.
+    For more deatails on this implementation, feel free to check out the blog post I wrote on this project, or the README in the github repo. I hope you enjoy this implementation as much as I enjoyed building it!
+    `.trim()
+
+    static graphJS = `
+    Graph.js: An application for custom graph generation from uploaded data files.
+    Graph.js was built as a way of mimicing excel graphing features in a webpage using Vanilla Javascript and the D3.js library.
+    With this application, users can make accounts, and upload data files to be stored on a Cloudinary backend (by default). These data files are automatically parse by the webapp and displayed for the user.
+    From there, a user can generate line, bar, and pie charts from the provided data. This is done by specifying the table columns/rows meant to be used as the different axes/series of the graph.
+    For example, with data values associated with a date, the user can specify the date column as the x-axis of a line graph, and declare the data values to be plotted on the y. Alternatively, if data is organized into categories, the categories can be made into the x-axis or groups of bar/pie charts. The application will automatically aggregate the data by category and plot the result for the users.
+    This project holds a lot of meaning to me personally. It was my first big project using the D3 library (one of my favorite Javascript toolkits), and my first step into data management and visualization. Take a look at the demo video above or the Features below if you're interested in more!
+    `
 }
 
 export default TextBlocks

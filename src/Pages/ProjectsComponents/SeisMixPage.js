@@ -7,8 +7,8 @@ import TitleRightbar from './SupportComponents/TitleRightbar.js'
 import SummaryBlock from './SupportComponents/SummaryBlock.js'
 import FeatureBlock from './SupportComponents/FeatureBlock.js'
 import ComponentTree from './SupportComponents/ComponentTree.js'
-import componentTreeImg from '../../Resources/ProjectImages/smComponentTree.png'
 
+import componentTreeImg from '../../Resources/ProjectImages/smComponentTree.png'
 import routeTreeImg from '../../Resources/ProjectImages/smRouteTree.png'
 import smAnimation1 from '../../Resources/ProjectAnimations/smAnimation1.gif'
 import smAnimation2 from '../../Resources/ProjectAnimations/smAnimation2.gif'
@@ -65,7 +65,6 @@ function SeisMixPage(props) {
                                       'Pull the github repo to a local directory',
                                       'Open terminal and cd into the directory',
                                       'Run "bundle install"',
-                                      'Run "rails db:create"',
                                       'Run "rails db:create"',
                                       'Run "rails db:migrate"',
                                       'Run "rails db:seed"',

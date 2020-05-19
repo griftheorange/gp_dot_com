@@ -7,9 +7,11 @@ import TitleRightbar from './SupportComponents/TitleRightbar.js'
 import SummaryBlock from './SupportComponents/SummaryBlock.js'
 import FeatureBlock from './SupportComponents/FeatureBlock.js'
 import ComponentTree from './SupportComponents/ComponentTree.js'
-import componentTreeImg from '../../Resources/ProjectImages/smComponentTree.png'
 
-import topoGlobeAnimaiton1 from '../../Resources/ProjectAnimations/topoGlobeAnimation1.gif'
+import topoGlobeAnimation1 from '../../Resources/ProjectAnimations/topoGlobeAnimation1.gif'
+import topoGlobeAnimation2 from '../../Resources/ProjectAnimations/topoGlobeAnimation2.gif'
+import topoGlobeAnimation3 from '../../Resources/ProjectAnimations/topoGlobeAnimation3.gif'
+import topoGlobeComponentTree from '../../Resources/ProjectImages/topoGlobeComponentTree.png'
 
 function TopoGlobePage(props) {
     return (
@@ -30,7 +32,7 @@ function TopoGlobePage(props) {
                                   'frontend':'https://github.com/griftheorange/topojson-test'
                               }}
                               blog={'https://medium.com/better-programming/topojson-geojson-and-projections-developing-interactive-map-visuals-for-web-apps-79e2d50abb19?source=friends_link&sk=1efcd7cd0a58d2bc38196ac02dc98ef6'}/>
-                <TitleRightbar gif={topoGlobeAnimaiton1}/>
+                <TitleRightbar gif={topoGlobeAnimation1}/>
             </TitleCard>
             <SummaryBlock summary={TextBlocks.topoGlobe}
                           setup={{
@@ -45,6 +47,27 @@ function TopoGlobePage(props) {
                                   ]
                               }
                           }}/>
+            <FeatureBlock features={{
+                              'Globe Rotation Control': {
+                                'details':[
+                                    'Globe rotation values can be set on 3 axes',
+                                    'Auto rotation can be toggled on/off',
+                                    'Rotation speeds adjustable'
+                                ],
+                                'animation':topoGlobeAnimation2
+                              },
+                              'Interactive Map Features': {
+                                  'details':[
+                                      'Map features can be made responsive (clickable, hover events, etc.)',
+                                      'Features are only limited by what you can draw',
+                                      'Any geojson shapes can be drawn on the map (e.g. the red circles) and can be made to respond to events the same way'
+                                  ],
+                                  'animation':topoGlobeAnimation3
+                              }
+                          }}/>
+            <ComponentTree images={{
+                'frontend - React Components':topoGlobeComponentTree
+            }}/>
         </div>
     );
 }
