@@ -46,7 +46,7 @@ function GraphJSPage(props) {
                           setup={{
                               'frontend':{
                                   'steps':[
-                                      'Pull the github repo to a local directory',
+                                      'Clone the github repo to a local directory',
                                       'Find the index.html file in the pulled repo',
                                       "Click and drag this file into your web browser's URL bar"
                                   ]
@@ -54,7 +54,7 @@ function GraphJSPage(props) {
                               'backend':{
                                   'steps':[
                                       'Uses Ruby Bundler, Cloudinary Account',
-                                      'Pull the github repo to a local directory',
+                                      'Clone the github repo to a local directory',
                                       'Open terminal and cd into the directory',
                                       'Run "bundle install"',
                                       'Run "rails db:create"',

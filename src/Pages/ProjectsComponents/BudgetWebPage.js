@@ -51,7 +51,7 @@ function BudgetWebPage(props) {
                             'frontend':{
                                 'steps':[
                                     'Uses Node Package Manager',
-                                    'Pull the github repo to a local directory',
+                                    'Clone the github repo to a local directory',
                                     'Open terminal and cd into the directory',
                                     'Run "npm install" to install dependencies',
                                     'Run "npm start" to boot app on localhost',
@@ -64,7 +64,7 @@ function BudgetWebPage(props) {
                             'backend':{
                                 'steps':[
                                     'Uses Python (Preferably with Anaconda)',
-                                    'Pull the github repo to a local directory',
+                                    'Clone the github repo to a local directory',
                                     'Open terminal and cd into the directory',
                                     'If using Anaconda, run "conda env create -f environment.yml" to create a conda environment named "budget" by default',
                                     'After the above, run "budget activate" to activate the dependency environment',

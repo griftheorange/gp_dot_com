@@ -35,7 +35,7 @@ function JavaTodoPage(props) {
                               'desktop':{
                                   'steps':[
                                       'Uses the IntelliJ IDEA Development kit',
-                                      'Pull the github repo to a local directory',
+                                      'Clone the github repo to a local directory',
                                       'Open the repo in IntelliJ',
                                       'Right click on Project name, click "Open Module Settings"',
                                       'Hit the plus at the bottom for a new module, click JARs or Directories',

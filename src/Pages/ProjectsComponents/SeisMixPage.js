@@ -52,7 +52,7 @@ function SeisMixPage(props) {
                               'frontend':{
                                   'steps':[
                                       'Uses Node Package Manager',
-                                      'Pull the github repo to a local directory',
+                                      'Clone the github repo to a local directory',
                                       'Open terminal and cd into the directory',
                                       'Run "npm install" to install dependencies',
                                       'Run "npm start" to boot app on localhost',
@@ -62,7 +62,7 @@ function SeisMixPage(props) {
                               'backend':{
                                   'steps':[
                                       'Uses Ruby Bundler',
-                                      'Pull the github repo to a local directory',
+                                      'Clone the github repo to a local directory',
                                       'Open terminal and cd into the directory',
                                       'Run "bundle install"',
                                       'Run "rails db:create"',

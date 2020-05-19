@@ -52,6 +52,25 @@ class TextBlocks {
     Much of this project was completed in reference to Tim Buchalka's Udemy Java Masterclass Course, to whom I extend my thanks for the instruction and offer my recommendations as an invaluble Java resource.
     This project is still in development, and will be updated as features become implemented. Stay tuned!
     `.trim()
+
+    static CLIDnD = `
+    CLI DnD: A command line Dungeons and Dragons Organizer App with interfaces to the Open5e DnD API.
+    This app holds a special place in my heart. If you've already checked out the Github Repo, you may have noticed that it was a final project for our first module of Flatiron School's Software Engineering Program. It was co-authorer by Guligena Aierken, Imade Osifo and I, and it could be described as our 'first' project. I hope you enjoy the hard work we put into the start of our development journey!
+    CLI DnD was built as a means for Dungeon Masters (the leads of a DnD game) to create, organize and flesh out game settings prior to a session. It uses a sinatra framework with active record to persist user data. It also uses the Rest-Client and Launchy Ruby Gems to interface with the Open5e monster database, and provides full access to it's resources in multiple easy-to-view formats.
+    With the app, a Dungeon Master can create a story setting, create worlds within the story, and specify locations. From there, a location can be fleshed out by adding enemies/monsters that can appear there. These monsters are seeded from the Open5e, and the app supports detail viewing as a print-out. Alternatively, the app can link you directly to the Open5e site.
+    We also provided additional features, including a variety of sorting options to browse the Monster Catalog, tracking entity appearances in your story, and random monster rolls for the indecisive DM.
+    For more details, check out the Features below, or the Demo Video above. Enjoy!
+    `.trim()
+
+    static pythonRogue = `
+    Python Roguelike: A desktop roguelike dungeon crawler written with the Libtcod Library.
+    This application was developed in reference to the Roguelike TCOD Tutorial here: http://rogueliketutorials.com/tutorials/tcod/. This tutorial walks you through the construction of the rogulike game with modern good coding practices in Python. I highly extend my recommendations of this tutorial for a fun first step into python.
+    The application builds a procedurally generated dungeon by carving out rooms and hallways, and filling these rooms with entities. Entities can include monsters, items, stairs etc.
+    Different entities have different behaviors produced through composition. The Engine iterates through all entities present on the map repeatedly, executing code based on the entities specific needs. For example, items and stairs do nothing, monsters move towards players or attack, players are prompted for input on their turn, etc.
+    Items and equipment can also produce their own functionality. Items can be used to cast spells, equipped for stat increases and so on. Additionally, combat can level up a player, and stats can be increased for further combat capability.
+    Again, I highly recommend this tutorial as a first step python project. The code is actually quite intricate, and the product is a fun and enjoyable display of your troubleshooting results.
+    Follow the settup instructions to try it out, or even build one of your own. Have fun!
+    `.trim()
 }
 
 export default TextBlocks
