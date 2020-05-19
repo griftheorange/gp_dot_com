@@ -44,6 +44,14 @@ class TextBlocks {
     For example, with data values associated with a date, the user can specify the date column as the x-axis of a line graph, and declare the data values to be plotted on the y. Alternatively, if data is organized into categories, the categories can be made into the x-axis or groups of bar/pie charts. The application will automatically aggregate the data by category and plot the result for the users.
     This project holds a lot of meaning to me personally. It was my first big project using the D3 library (one of my favorite Javascript toolkits), and my first step into data management and visualization. Take a look at the demo video above or the Features below if you're interested in more!
     `
+
+    static javaTodo = `
+    JavaTodo: A desktop Task Tracking Application written in Java.
+    JavaTodo is a project in progress written in Java, using the IntelliJ IDEA Development kit and the JavaFX GUI library. The app is fundamental in its features, with a user being able to add and delete Todo List items and the app coloring items that are near or past their deadline.
+    The main purpose of this project however was for practice as my first forray into Desktop App development and native GUI development. The app extensively uses the built-in JavaFX library and fxml markup for the GUI display, with other external library references for styling and user-friendliness.
+    Much of this project was completed in reference to Tim Buchalka's Udemy Java Masterclass Course, to whom I extend my thanks for the instruction and offer my recommendations as an invaluble Java resource.
+    This project is still in development, and will be updated as features become implemented. Stay tuned!
+    `.trim()
 }
 
 export default TextBlocks

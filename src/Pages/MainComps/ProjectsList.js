@@ -25,13 +25,13 @@ function ProjectsList(props) {
                     <ProjectCard icon={'chart bar'} history={props.history} details={'A Javascript webpage for custom plotting CSV Data'} title={'Graph.js'} star={false}/>
                 </Grid.Column>
                 <Grid.Column style={{height:'100%', width:'25%'}}>
-                    <ProjectCard icon={'calendar check outline'} history={props.history} details={'A JavaFX GUI TodoList App'} title={'JavaTodo'} star={false}/>
+                    <ProjectCard icon={'book'} history={props.history} details={'A Command Line Interface for DnD API navigation'} title={'CLI DnD'} star={false}/>
                 </Grid.Column>
                 <Grid.Column style={{height:'100%', width:'25%'}}>
                     <ProjectCard icon={'game'} history={props.history} details={'A Procedurally Generated RogueLike game written in Python'} title={'Python Roguelike'} star={false}/>
                 </Grid.Column>
                 <Grid.Column style={{height:'100%', width:'25%'}}>
-                    <ProjectCard icon={'book'} history={props.history} details={'A Command Line Interface for DnD API navigation'} title={'CLI DnD'} star={false}/>
+                    <ProjectCard icon={'calendar check outline'} history={props.history} details={'A JavaFX GUI TodoList App'} title={'JavaTodo'} star={false}/>
                 </Grid.Column>
             </Grid.Row>
         </Grid>
