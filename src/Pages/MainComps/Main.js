@@ -3,8 +3,12 @@ import React from 'react';
 import '../../CSS/Main.css'
 import BusinessCard from './BusinessCard';
 import ProjectsList from './ProjectsList'
+import {useBreakpoint} from '../useBreakpoint.js'
 
 function Main(props) {
+
+    const breakpoints = useBreakpoint()
+
     return (
         <div className={'main-content'}>
             <h3 className={'card-tag'}>Information</h3>

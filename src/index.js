@@ -2,10 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Framework from './Pages/Framework.js'
+import {BreakpointProvider} from './Pages/useBreakpoint.js'
+
+const queries = {
+  xs: '(max-width: 320px)',
+  md: '(max-width: 720px)',
+  lg: '(max-width: 1024px)'
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <Framework/>
+    <BreakpointProvider queries={queries}>
+      <Framework/>
+    </BreakpointProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
