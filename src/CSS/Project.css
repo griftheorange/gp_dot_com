@@ -11,7 +11,6 @@ div.project-desc-wrapper {
     width:100%;
     flex-direction: column;
     overflow-y: auto;
-    overflow-x: auto;
 }
 
 div.project-titlecard {
@@ -19,11 +18,12 @@ div.project-titlecard {
     min-height:450px;
     width:100%;
     display:flex;
+    overflow-x: scroll;
 }
 
 div.titlecard-text {
     padding-right:1em;
-    min-width:30%;
+    width:33.25em;
     display: flex;
     flex-direction: column;
     flex-grow:1;
@@ -92,14 +92,13 @@ div.text-tools {
 
 div.titlecard-animation {
     height:100%;
-    max-width:65%;
     border-left:4px solid #8496b1;
     border-right:4px solid #8496b1;
 }
 
 div.titlecard-animation img {
     height:100%;
-    width:100%;
+    width:61.75em;
     animation: fadeInAnimation ease 2.5s
 }
 

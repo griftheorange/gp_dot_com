@@ -19,12 +19,11 @@ div.card {
 
 div.project-card-container {
     border-left: 7px solid #71737d;
-    overflow-x: auto;
 }
 
 div.project-card-bckgnd {
     background-color:#f2f2f5;
-    min-width:95em;
+    /* min-width:95em; */
 }
 
 div.business-card-container {

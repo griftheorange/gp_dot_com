@@ -31,7 +31,7 @@ function ProjectsList(props) {
                     <ProjectCard icon={'game'} history={props.history} details={'A Procedurally Generated RogueLike game written in Python'} title={'Python Roguelike'} star={false}/>
                 </Grid.Column>
                 <Grid.Column style={{height:'100%', width:'25%'}}>
-                    <ProjectCard icon={'calendar check outline'} history={props.history} details={'A JavaFX GUI TodoList App'} title={'JavaTodo'} star={false}/>
+                    <ProjectCard icon={'calendar check outline'} history={props.history} details={'A JavaFX GUI to-do list app'} title={'JavaTodo'} star={false}/>
                 </Grid.Column>
             </Grid.Row>
         </Grid>

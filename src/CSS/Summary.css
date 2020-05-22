@@ -1,8 +1,12 @@
 div.summary-block {
     display:flex;
     height:30em;
+    width:100%;
+    overflow-x: auto;
     animation: fadeInSummary ease 2.5s
 }
+
+
 
 @keyframes fadeInSummary {
     0% {opacity:0}
@@ -12,6 +16,7 @@ div.summary-block {
 
 div.summary-block div.summary, div.features {
     width:49.5%;
+    min-width:47.5em;
     height:100%;
 }
 
@@ -31,8 +36,6 @@ div.summary, div.features {
     border-right:4px solid #8496b1;
     border-bottom:1px solid #8496b1;
 }
-
-
 
 h3.sub-block-title {
     font-size: 1.9em;
@@ -59,9 +62,13 @@ div.summary p {
     text-shadow: 0.5px 0.5px #3a3a56;
 }
 
+div.feature-block {
+    overflow-x: auto;
+}
+
 div.feature-card {
     margin:auto;
-    width:85%;
+    width:80.75em;
     margin-bottom: 1em;
     padding:0.4em;
     background-color:#e6e7ec;
