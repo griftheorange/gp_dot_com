@@ -11,7 +11,7 @@ function SummaryBlock(props) {
             let paragraphArr = props.summary.split('\n')
             for(let index in paragraphArr){
                 pTags.push(
-                    <p>{paragraphArr[index].split()}</p>
+                    <p dangerouslySetInnerHTML={{__html: paragraphArr[index].split()}}/>
                 )
             }
         }

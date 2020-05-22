@@ -63,7 +63,7 @@ function GraphJSPage(props) {
                                       'Run "rails s"',
                                       'If you seeded, user account "griff" password "g" should exist by default. Otherwise you can make your own',
                                       'In "/app/controllers/datasets_controller.rb" edit the "uploadToCloud" method. Here you put your Cloudinary account information to connect to your account',
-                                      'If you prefer an alternate storage method, you can also edit this method in any way. It is passed the file to be stored and returns a pointer to it'
+                                      'If you prefer an alternative storage method, you can also edit this method in any way. It is passed the file to be stored and returns a pointer to it'
                                   ]
                               }
                           }}/>
@@ -72,7 +72,7 @@ function GraphJSPage(props) {
                                 'details':[
                                     'Users can upload CSV files as datasets',
                                     'Data file is saved in a Cloud server (provided by Cloudinary)',
-                                    'The App automatically parses the file and renders a table for ease-of-viewing',
+                                    'The app automatically parses the file and renders a table for ease-of-viewing',
                                     'Users can always access old datasets, or delete unneeded ones'
                                 ],
                                 'animation':graphJSAnimation2
@@ -91,7 +91,7 @@ function GraphJSPage(props) {
                                     'Categorical data can be made into bar charts',
                                     'Users select bar chart in New Graphs',
                                     'Users can also add multiple series for bar charts',
-                                    'App automatically aggregates categories into sums, diplays processed data'
+                                    'App automatically aggregates categories into sums, and diplays processed data'
                                   ],
                                   'animation':graphJSAnimation4
                               },
@@ -99,7 +99,7 @@ function GraphJSPage(props) {
                                   'details':[
                                       'Categorical data can also be made into pie charts',
                                       'Pie charts limited to one series',
-                                      'Pie chart accepts negative values, renders them red and plots vs positive values in green'
+                                      'Pie chart accepts negative values (in red) and plots them counter to positive values (in green)'
                                   ],
                                   'animation':graphJSAnimation5
                               }

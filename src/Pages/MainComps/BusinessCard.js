@@ -33,7 +33,7 @@ function BusinessCard(props) {
                         </div>
                         <Divider style={{marginBottom:0, marginTop:0}}/>
                         <div className={'links-container'}>
-                            <Header id={'my-name'} as='h2'>Resume <span>{'&'}</span> Social Media</Header>
+                            <Header id={'my-name'} as='h2'>Résumé <span>{'&'}</span> Social Media</Header>
                             <Divider style={{marginBottom:0}}/>
                             <div className={'links'}>
                                 <div style={{display:'flex', flexDirection:'column'}}>
@@ -76,7 +76,7 @@ function BusinessCard(props) {
                         <Divider style={{marginBottom:0}}/>
                         <List className={'skill-list-items'}>
                             <List.Item>
-                                <span style={{fontWeight:'bold'}}>Web <span style={{fontWeight:'100'}}>{'&'}</span> Software Developement</span>
+                                <span style={{fontWeight:'bold'}}>Web <span style={{fontWeight:'100'}}>{'&'}</span> Software Development</span>
                                 <Divider style={{width:'19.5em', marginBottom:0}}/>
                                 <List.List>
                                     <List.Item>
@@ -138,7 +138,7 @@ function BusinessCard(props) {
                     <Divider style={{marginTop:0, marginBottom:0, width:'9.5em'}}/>
                     <p>My name is Griffin Poole, and I am a full-stack web developer and software engineer aspiring to enter the wide world of data analysis.</p>
                     <p>I began my career as a Neuroscience Researcher at Temple University and made the switch to coding full-time in October 2019.</p>
-                    <p>Since then, I have had the pleasure of working on many projects involving traversal/analysis of large datasets, GUI development for data manipulation, graph generation, and so much more.</p>
+                    <p>Since then, I have had the pleasure of working on many projects involving the traversal and analysis of large datasets, GUI development for data manipulation, graph generation, and so much more.</p>
                     <p>I've assembled overviews of some of my personal favorites below. Feel free to have a look!</p>
                 </div>
             </div>

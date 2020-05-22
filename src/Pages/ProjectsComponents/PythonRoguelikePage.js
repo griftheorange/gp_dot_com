@@ -40,7 +40,7 @@ function PythonRoguelikePage(props) {
                                     'Open terminal and cd into the directory',
                                     'If using Anaconda, run "conda env create -f environment.yml" to create a conda environment named "roguelike" by default',
                                     'After the above, run "roguelike activate" to activate the dependency environment',
-                                    'If not using Anaconda, you may have to open the environment.yml file and install the dependecies listed in your environment manager of choice',
+                                    'If not using Anaconda, you may have to open the environment.yml file and install the dependencies listed in your environment manager of choice',
                                     'Finally, running "python engine.py" should boot up your game',
                                     'Have fun!'
                                 ]
@@ -51,13 +51,13 @@ function PythonRoguelikePage(props) {
                                 'details':[
                                     'Dungeons are randomly carved out at the start of each new game',
                                     'Users can reload their last played game if they have exited out in the middle of a session',
-                                    'Enemies, Items, Weapons and more increase in value the deeper you descend!'
+                                    'Enemies, items, weapons and more increase in value the deeper you descend'
                                 ],
                                 'animation':pythonRogueAnimation2
                               },
                               'Items, Equipment, Weapons':{
                                   'details':[
-                                      'Weapons, potions and spell scrolls spawn for increased combat efficacy!',
+                                      'Weapons, potions and spell scrolls spawn for increased combat efficacy',
                                       'Items are stored in a players inventory and can be dropped to clear space'
                                   ],
                                   'animation':pythonRogueAnimation3

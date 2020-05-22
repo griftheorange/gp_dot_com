@@ -47,7 +47,7 @@ function CLIDnDPage(props) {
                                         'Run "rake db:migrate"',
                                         'Run "rake monsterSeed", this seeds the monsters from the DnD API, may take a minute',
                                         'Run "rake run"',
-                                        'You should be set to go!'
+                                        "You're all set!"
                                     ]
                                 }
                             }}/>
@@ -63,7 +63,7 @@ function CLIDnDPage(props) {
                               },
                               'Monster Catalog':{
                                   'details':[
-                                    'Users can list all monsters, and all monster types in a catalog',
+                                    'Users can list all monsters and all monster types in a catalog',
                                     'For more compact lists, users can search for monsters by type, challenge rating or name',
                                     'Once a monster of interest is found, its details can be listed in a print-out or online'
                                   ],
@@ -79,8 +79,8 @@ function CLIDnDPage(props) {
                               },
                               'DM Utility Features':{
                                   'details':[
-                                      `At a location, indecisive (or evil) Dungeon Master can randomly draw a monster from the location's pool`,
-                                      `Once drawn, DMs can view the monsters details online/printout, or they can pass`,
+                                      `At a location, an indecisive (or evil) Dungeon Master can randomly draw a monster from the location's pool`,
+                                      `Once drawn, DMs can view the monster's details online or in print-out. Alternatively, they can pass`,
                                       'The app also provides a simple d20 Dice Roller'
                                   ],
                                   'animation':CLIDnDAnimation5

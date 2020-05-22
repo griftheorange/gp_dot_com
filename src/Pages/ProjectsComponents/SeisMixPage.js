@@ -100,15 +100,15 @@ function SeisMixPage(props) {
                                     'details':[
                                         'Frequent users can create accounts and log in',
                                         'User passwords are fully encrypted on the backend using BCrypt',
-                                        'User page provides an interface for a users webpage activity'
+                                        "User page provides an interface for a user's webpage activity"
                                     ],
                                     'animation':smAnimation4
                                 },
                                 'Bookmarking and Commenting':{
                                     'details':[
                                         'Returning users can bookmark interesting events',
-                                        'Bookmarks are organized on a Profile-page map, and hovering displays information',
-                                        'Users can also provide "insights" on events that they visit',
+                                        'Bookmarks are organized on a profile-page map, and hovering displays information',
+                                        'Users can also provide insights in the comments section of events that they visit',
                                         "A user's insights are also tracked on their profile page"
                                     ],
                                     'animation':smAnimation5

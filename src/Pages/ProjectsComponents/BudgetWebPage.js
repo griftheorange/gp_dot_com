@@ -68,7 +68,7 @@ function BudgetWebPage(props) {
                                     'Open terminal and cd into the directory',
                                     'If using Anaconda, run "conda env create -f environment.yml" to create a conda environment named "budget" by default',
                                     'After the above, run "budget activate" to activate the dependency environment',
-                                    'If not using Anaconda, you may have to open the environment.yml file and install the dependecies listed in your environment manager of choice',
+                                    'If not using Anaconda, you may have to open the environment.yml file and install the dependencies listed in your environment manager of choice',
                                     'Finally, running "flask run" should boot up your backend'
                                 ]
                             }
@@ -78,7 +78,7 @@ function BudgetWebPage(props) {
                                 'details':[
                                     'Users can upload excel, csv, or pickle files of their data',
                                     'Uploaded tables must match required columns, and have at least one row',
-                                    'Storage files settup on backend, formatted for user',
+                                    'Storage files setup on backend, formatted for user',
                                     'Application also "guesses" categories for user based on any categories in Type column'
                                 ],
                                 'animation':budgetPyAnimation2
@@ -94,7 +94,7 @@ function BudgetWebPage(props) {
                                   'details':[
                                       'Users can update Type column with categories from a custom list',
                                       'These categories help with producing pie charts',
-                                      'Categories can be added/deleted and customized'
+                                      'Categories can be added, deleted and/or customized'
                                   ],
                                   'animation':budgetPyAnimation4
                               },
