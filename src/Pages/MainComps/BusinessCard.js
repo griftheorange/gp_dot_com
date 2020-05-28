@@ -33,7 +33,7 @@ function BusinessCard(props) {
                             <Divider style={{marginBottom:0}}/>
                             <div className={'links'}>
                                 <div style={{display:'flex', flexDirection:'column'}}>
-                                    <Button title={'Resume'} onClick={()=>{window.open('https://drive.google.com/file/d/1dHYWJGBJfG-V0gv7QXOFzRm1IUQ1vx3x/view?usp=sharing')}} style={{margin:'auto'}} icon circular size='large' color='orange'>
+                                    <Button title={'Resume'} onClick={()=>{window.open('https://drive.google.com/file/d/16pIlbeaiZHVhvdLk_CnQyuoohcVZwgLn/view?usp=sharing')}} style={{margin:'auto'}} icon circular size='large' color='orange'>
                                         <Icon name='download'/>
                                     </Button>
                                 </div>
