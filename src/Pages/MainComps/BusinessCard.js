@@ -14,10 +14,6 @@ function BusinessCard(props) {
                             <Divider style={{marginBottom:0}}/>
                             <List className={'contact-list'}>
                                 <List.Item>
-                                    <List.Icon name='calendar outline'/>
-                                    <span style={{display:'block'}}>Age: {(new Date(Date.now() - (new Date('1996-07-15')))).getUTCFullYear() - 1970}</span>
-                                </List.Item>
-                                <List.Item>
                                     <List.Icon name='map marker alternate'/>
                                     <span style={{display:'block'}}>Location: Brooklyn, NY</span>
                                 </List.Item>
@@ -46,7 +42,7 @@ function BusinessCard(props) {
                                         <Icon name='linkedin'/>
                                     </Button>
                                 </div>
-                                <div style={{display:'flex', flexDirection:'column'}}>
+                                <div style={{display:'flex'}}>
                                     <Button title={'Github'} onClick={()=>{window.open('https://github.com/griftheorange')}} style={{margin:'auto'}} icon circular size='large' color='black'>
                                         <Icon name='github'/>
                                     </Button>
