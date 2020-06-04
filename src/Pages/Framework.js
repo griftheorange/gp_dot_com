@@ -16,7 +16,6 @@ import '../CSS/Framework.css';
 function Framework(props) {
 
     const breakpoints = useBreakpoint()
-    console.log(breakpoints)
 
     return (
             <Router>

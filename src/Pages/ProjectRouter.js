@@ -14,8 +14,6 @@ import '../CSS/Project.css'
 
 function ProjectRouter(props) {
 
-    console.log(props)
-
     function getProjectContent(){
         switch(props.match.params.name){
             case 'SeisMix':

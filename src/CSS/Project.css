@@ -21,9 +21,25 @@ div.project-titlecard {
     overflow-x: scroll;
 }
 
+div.project-titlecard-lg {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    overflow-x: scroll;
+}
+
 div.titlecard-text {
     padding-right:1em;
     width:33.25em;
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+}
+
+div.titlecard-text-lg {
+    padding-right:1em;
+    padding-bottom:1em;
+    width:100%;
     display: flex;
     flex-direction: column;
     flex-grow:1;
@@ -99,6 +115,17 @@ div.titlecard-animation {
 div.titlecard-animation img {
     height:100%;
     width:61.75em;
+    animation: fadeInAnimation ease 2.5s
+}
+
+div.titlecard-animation-lg {
+    width:100%;
+    border-left:4px solid #8496b1;
+    border-right:4px solid #8496b1;
+}
+
+div.titlecard-animation-lg img {
+    width:100%;
     animation: fadeInAnimation ease 2.5s
 }
 

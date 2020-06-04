@@ -11,7 +11,6 @@ function FeatureBlock(props) {
         if(props.features){
             let features = Object.keys(props.features)
             for(let index in features){
-                console.log(props.features)
                 featureElements.push(
                     <FeatureCard title={features[index]}
                                  details={props.features[features[index]]['details']}
