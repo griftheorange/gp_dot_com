@@ -192,7 +192,17 @@ div.tree-container div.tree-img-container {
     margin:auto;
 }
 
-div.tree-img-container h4 {
+div.tree-container div.tree-img-container-lg {
+    width:95%;
+    display:flex;
+    padding-bottom: 2em;
+    margin-bottom:1em;
+    flex-direction:column;
+    height:auto;
+    margin:auto;
+}
+
+div.tree-img-container, div.tree-img-container-lg h4 {
     margin-bottom:0;
     margin-top:0;
     font-weight:bold;
@@ -202,7 +212,7 @@ div.tree-img-container h4 {
     text-shadow: 1px 1px #b1b1b1;
 }
 
-div.tree-img-container img {
+div.tree-img-container, div.tree-img-container-lg img {
     width:100%;
     height:auto;
     border-right:3px solid #3939b9;
