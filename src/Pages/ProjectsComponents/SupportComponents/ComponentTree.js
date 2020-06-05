@@ -27,7 +27,7 @@ function ComponentTree(props) {
         <div className={'component-tree'}>
             <h3>File Trees</h3>
             <Divider/>
-            <div className={'tree-container'}>
+            <div className={breakpoint['lg'] ? 'tree-container lg' : 'tree-container'}>
                 {genFileTreeBlocks()}
             </div>
         </div>

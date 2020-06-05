@@ -177,12 +177,8 @@ div.component-tree h3 {
     text-shadow: 2px 2px #b1b1b1;
 }
 
-div.tree-container {
-    width:95%;
-    margin:auto;
-}
 
-div.tree-container div.tree-container {
+div.tree-container {
     width:65%;
     display:flex;
     padding-bottom: 2em;
@@ -192,17 +188,11 @@ div.tree-container div.tree-container {
     margin:auto;
 }
 
-div.tree-container {
+div.tree-container.lg {
     width:95%;
-    display:flex;
-    padding-bottom: 2em;
-    margin-bottom:1em;
-    flex-direction:column;
-    height:auto;
-    margin:auto;
 }
 
-div.tree-img-container, div.tree-img-container-lg h4 {
+div.tree-img-container h4, div.tree-img-container-lg h4 {
     margin-bottom:0;
     margin-top:0;
     font-weight:bold;
