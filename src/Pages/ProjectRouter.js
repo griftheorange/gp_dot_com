@@ -14,6 +14,8 @@ import '../CSS/Project.css'
 
 function ProjectRouter(props) {
 
+    window.scrollTo(0, 0)
+
     function getProjectContent(){
         switch(props.match.params.name){
             case 'SeisMix':
