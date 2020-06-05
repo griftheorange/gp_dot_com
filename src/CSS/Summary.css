@@ -28,7 +28,6 @@ div.summary-block div.summary, div.features {
 
 div.summary-block-lg div.summary-lg, div.features-lg {
     width:100%;
-    max-height: 20em;
     margin-right:0;
     margin-left:0;
 }
