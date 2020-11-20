@@ -1,4 +1,4 @@
-class TextBlocks {
+class TextBlocksEnum {
     static seisMix = `
     Seismix: A React web app for visualizing and querying the most up-to-date information on global seismic activity.
     SeisMix accesses data from the USGS's public API, a government agency devoted to the geographic survey of the United States and tracking of worldwide seismic events. Their database provides up-to-date records of global seismic events from 1970 to the present date.
@@ -73,4 +73,4 @@ class TextBlocks {
     `.trim()
 }
 
-export default TextBlocks
+export default TextBlocksEnum

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TextBlocks from './SupportComponents/TextBlocks.js'
+import TextBlocksEnum from './SupportComponents/TextBlocksEnum.js'
 import TitleCard from './SupportComponents/TitleCard.js'
 import TitleLeftbar from './SupportComponents/TitleLeftbar.js'
 import TitleRightbar from './SupportComponents/TitleRightbar.js'
@@ -34,7 +34,7 @@ function TopoGlobePage(props) {
                               blog={'https://medium.com/better-programming/topojson-geojson-and-projections-developing-interactive-map-visuals-for-web-apps-79e2d50abb19?source=friends_link&sk=1efcd7cd0a58d2bc38196ac02dc98ef6'}/>
                 <TitleRightbar gif={topoGlobeAnimation1}/>
             </TitleCard>
-            <SummaryBlock summary={TextBlocks.topoGlobe}
+            <SummaryBlock summary={TextBlocksEnum.topoGlobe}
                           setup={{
                               'frontend':{
                                   'steps':[

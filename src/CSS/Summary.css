@@ -6,14 +6,6 @@ div.summary-block {
     animation: fadeInSummary ease 2.5s
 }
 
-div.summary-block-lg {
-    display:flex;
-    flex-direction: column;
-    width:100%;
-    overflow-x: auto;
-    animation: fadeInSummary ease 2.5s
-}
-
 @keyframes fadeInSummary {
     0% {opacity:0}
     50% {opacity:0}
@@ -24,12 +16,6 @@ div.summary-block div.summary, div.features {
     width:49%;
     min-width:46.55em;
     height:100%;
-}
-
-div.summary-block-lg div.summary-lg, div.features-lg {
-    width:100%;
-    margin-right:0;
-    margin-left:0;
 }
 
 div.summary {
@@ -46,15 +32,6 @@ div.features-lg {
 }
 
 div.summary, div.features {
-    padding:0.5em;
-    overflow-y: auto;
-    overflow-x: hidden;
-    border-left:4px solid #8496b1;
-    border-right:4px solid #8496b1;
-    border-bottom:1px solid #8496b1;
-}
-
-div.summary-lg, div.features-lg {
     padding:0.5em;
     overflow-y: auto;
     overflow-x: hidden;
@@ -101,18 +78,6 @@ div.feature-card {
     border-top: 1.5px solid #202a86;
     border-bottom: 1.5px solid #202a86;
     display:flex;
-}
-
-div.feature-card-lg {
-    margin:auto;
-    width:100%;
-    margin-bottom: 1em;
-    padding:0.4em;
-    background-color:#e6e7ec;
-    border-top: 1.5px solid #202a86;
-    border-bottom: 1.5px solid #202a86;
-    display:flex;
-    flex-direction: column;
 }
 
 div.feature-card div.feature-text {

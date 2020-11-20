@@ -59,15 +59,6 @@ div.header-box {
   animation: fadeInHeaders ease 2s;
 }
 
-.ui.header.main-header.smaller {
-  font-size:2.5em;
-}
-
-.ui.header.main-header.smallest {
-  font-size:2em;
-  text-shadow:2px 2px #5d69789e;
-}
-
 .sub.header.main-subheader {
   margin-top:0;
   color:#282d3c;
@@ -75,15 +66,6 @@ div.header-box {
   font-size:1.9em;
   text-shadow:2px 2px #5d6978b5;
   animation: fadeInHeaders ease 2s;
-}
-
-.sub.header.main-subheader.smaller {
-  font-size:1.4em;
-}
-
-.sub.header.main-subheader.smallest {
-  font-size: 1.2em;
-  text-shadow:1px 1px #5d6978b5;
 }
 
 @keyframes fadeInHeaders {
@@ -104,12 +86,11 @@ div.content-wrapper {
   background-color: #bdc4ce;
 }
 
-div.main-content {
+div.content-vertical-shift {
   width:95%;
   position:relative;
   display:flex;
   flex-flow: column; 
-  height:730px;
   transition: bottom 1s;
   animation: fadeInContent ease 2.5s, slideInContent ease 2.5s;
   bottom:5em;

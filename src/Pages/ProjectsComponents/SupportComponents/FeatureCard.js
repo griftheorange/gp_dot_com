@@ -1,11 +1,7 @@
 import React from 'react';
 import { Divider, List } from 'semantic-ui-react'
-import {useBreakpoint} from '../../useBreakpoint'
 
 function FeatureCard(props) {
-
-    const breakpoint = useBreakpoint()
-
     function genDetails(){
         let details = []
         for(let index in props.details){
@@ -19,7 +15,7 @@ function FeatureCard(props) {
     }
 
     return (
-        <div className={breakpoint['lg'] ? 'feature-card-lg' : 'feature-card'}>
+        <div className={'feature-card'}>
             <div className={'feature-text'}>
                 <h4>{props.title}</h4>
                 <Divider style={{width:'50%', marginTop:'0.5em', marginBottom:0}}/>

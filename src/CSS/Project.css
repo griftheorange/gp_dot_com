@@ -118,17 +118,6 @@ div.titlecard-animation img {
     animation: fadeInAnimation ease 2.5s
 }
 
-div.titlecard-animation-lg {
-    width:100%;
-    border-left:4px solid #8496b1;
-    border-right:4px solid #8496b1;
-}
-
-div.titlecard-animation-lg img {
-    width:100%;
-    animation: fadeInAnimation ease 2.5s
-}
-
 @keyframes fadeInAnimation {
     0% {opacity:0}
     50% {opacity:0}

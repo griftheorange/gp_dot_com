@@ -1,6 +1,6 @@
 import React from 'react';
  
-import TextBlocks from './SupportComponents/TextBlocks.js'
+import TextBlocksEnum from './SupportComponents/TextBlocksEnum.js'
 import TitleCard from './SupportComponents/TitleCard.js'
 import TitleLeftbar from './SupportComponents/TitleLeftbar.js'
 import TitleRightbar from './SupportComponents/TitleRightbar.js'
@@ -17,6 +17,7 @@ import smAnimation4 from '../../Resources/ProjectAnimations/smAnimation4.gif'
 import smAnimation5 from '../../Resources/ProjectAnimations/smAnimation5.gif'
  
 function SeisMixPage(props) {
+    
     return (
         <div className={'project-desc-wrapper'}>
             <TitleCard>
@@ -47,7 +48,7 @@ function SeisMixPage(props) {
                               demo={'https://www.youtube.com/watch?v=fy93QL0LiVM&feature=youtu.be'}/>
                 <TitleRightbar gif={smAnimation1}/>
             </TitleCard>
-            <SummaryBlock summary={TextBlocks.seisMix}
+            <SummaryBlock summary={TextBlocksEnum.seisMix}
                           setup={{
                               'frontend':{
                                   'steps':[

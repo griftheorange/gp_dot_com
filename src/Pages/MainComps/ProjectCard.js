@@ -22,7 +22,6 @@ function ProjectCard(props) {
         <div onMouseEnter={handleMouseEnter} 
              onMouseLeave={handleMouseLeave}
              onClick={()=>{props.history.push(`/project_overview/${props.title}`)}}
-             className={'project-card'}
              id={props.title}>
             <Icon name={props.icon} size='huge'/>
             {/* <img src={props.icon}/> */}

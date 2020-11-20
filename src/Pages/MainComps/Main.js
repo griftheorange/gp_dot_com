@@ -3,23 +3,20 @@ import React from 'react';
 import '../../CSS/Main.css'
 import BusinessCard from './BusinessCard';
 import ProjectsList from './ProjectsList'
-import {useBreakpoint} from '../useBreakpoint.js'
 
 function Main(props) {
 
-    const breakpoints = useBreakpoint()
-
     return (
-        <div className={'main-content'}>
+        <div>
             <h3 className={'card-tag'}>Information</h3>
-            <div className={'card-container'} style={{height:'59%'}}>
-                <div className={'card'} style={{display:'flex'}}>
+            <div className={'card-container'}>
+                <div className={'card business-card-sizer'} style={{display:'flex'}}>
                     <BusinessCard/>
                 </div>
             </div>
             <h3 className={'card-tag'}>Projects</h3>
-            <div className={'card-container'} style={{height:'45%'}}>
-                <div className={'card'} style={{overflowX:'hidden', overflowY:'auto'}}>
+            <div className={'card-container'}>
+                <div className={'card project-card-sizer'} style={{overflowX:'hidden', overflowY:'auto'}}>
                     <ProjectsList history={props.history}/>
                 </div>
             </div>

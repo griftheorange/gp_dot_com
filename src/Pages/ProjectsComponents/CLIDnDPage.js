@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TextBlocks from './SupportComponents/TextBlocks.js'
+import TextBlocks from './SupportComponents/TextBlocksEnum.js'
 import TitleCard from './SupportComponents/TitleCard.js'
 import TitleLeftbar from './SupportComponents/TitleLeftbar.js'
 import TitleRightbar from './SupportComponents/TitleRightbar.js'

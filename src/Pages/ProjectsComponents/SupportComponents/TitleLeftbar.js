@@ -1,11 +1,8 @@
 import React from 'react';
 import { List, Divider } from 'semantic-ui-react'
-import {useBreakpoint} from '../../useBreakpoint.js'
 
 function TitleLeftbar(props) {
-
-    const breakpoint = useBreakpoint()
-
+    
     function genListItems(){
         let elements = []
         let keys = Object.keys(props.listHash)
@@ -65,7 +62,7 @@ function TitleLeftbar(props) {
     }
 
     return (
-        <div className={breakpoint['lg'] ? 'titlecard-text-lg' : 'titlecard-text'}>
+        <div className={'titlecard-text'}>
             <div className={'text-title'}>
                 <h2>{props.title}</h2>
                 <h4>{props.subtitle}</h4>

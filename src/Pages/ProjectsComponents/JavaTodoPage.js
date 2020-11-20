@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TextBlocks from './SupportComponents/TextBlocks.js'
+import TextBlocksEnum from './SupportComponents/TextBlocksEnum.js'
 import TitleCard from './SupportComponents/TitleCard.js'
 import TitleLeftbar from './SupportComponents/TitleLeftbar.js'
 import TitleRightbar from './SupportComponents/TitleRightbar.js'
@@ -30,7 +30,7 @@ function JavaTodoPage(props) {
                               }}/>
                 <TitleRightbar gif={javaTodoAnimation1}/>
             </TitleCard>
-            <SummaryBlock summary={TextBlocks.javaTodo}
+            <SummaryBlock summary={TextBlocksEnum.javaTodo}
                           setup={{
                               'desktop':{
                                   'steps':[

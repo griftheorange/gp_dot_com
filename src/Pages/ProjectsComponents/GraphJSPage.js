@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TextBlocks from './SupportComponents/TextBlocks.js'
+import TextBlocksEnum from './SupportComponents/TextBlocksEnum.js'
 import TitleCard from './SupportComponents/TitleCard.js'
 import TitleLeftbar from './SupportComponents/TitleLeftbar.js'
 import TitleRightbar from './SupportComponents/TitleRightbar.js'
@@ -42,7 +42,7 @@ function GraphJSPage(props) {
                               blog={'https://medium.com/better-programming/d3-responsive-and-dynamic-visualizations-for-data-and-other-easy-recipes-68e37b451822?source=friends_link&sk=1f369ccf8c1108d2d753e3908f6ec85d'}/>
                 <TitleRightbar gif={graphJSAnimation1}/>
             </TitleCard>
-            <SummaryBlock summary={TextBlocks.graphJS}
+            <SummaryBlock summary={TextBlocksEnum.graphJS}
                           setup={{
                               'frontend':{
                                   'steps':[
